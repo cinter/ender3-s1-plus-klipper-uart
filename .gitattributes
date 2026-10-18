@@ -1,0 +1,9 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.cfg text eol=lf
+*.config text eol=lf
+*.defconfig text eol=lf
+*.bin binary
+*.jpg binary
+*.tar.gz binary

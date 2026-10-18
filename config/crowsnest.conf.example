@@ -1,0 +1,15 @@
+# Sanitised example from the tested 720p USB-camera setup.
+# The camera is currently unplugged during power diagnosis.
+# Replace the placeholder device path with your actual /dev/v4l/by-id entry.
+# Desired output FPS is not guaranteed to equal the sensor capture FPS.
+[crowsnest]
+log_level: verbose
+rollover_on_start: false
+no_proxy: false
+
+[cam 1]
+mode: ustreamer
+port: 8080
+device: /dev/v4l/by-id/REPLACE_WITH_YOUR_CAMERA-video-index0
+resolution: 1280x720
+max_fps: 15

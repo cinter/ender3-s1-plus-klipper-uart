@@ -1,0 +1,47 @@
+{
+  "source_commit": "9cb99754c035b90206ef0a02660f674fc9517e9b",
+  "source_version": "v0.13.0-800-g9cb99754c",
+  "hardware": "Creality Ender 3 S1 Plus, stock STM32F401, Raspberry Pi 3B, DACAI cable",
+  "mcu": "stm32f401xc",
+  "bootloader_bytes": 65536,
+  "application_address": "0x08010000",
+  "reference_clock_hz": 8000000,
+  "cpu_clock_hz": 84000000,
+  "baud": 250000,
+  "uart_pins": {
+    "rx": "PA3",
+    "tx": "PA2"
+  },
+  "usb_rollback_pins": {
+    "rx": "PA10",
+    "tx": "PA9"
+  },
+  "host_serial": "/dev/serial0",
+  "verified_alias_on_this_pi": "/dev/ttyAMA0",
+  "successful_flash_name": "STM32F4_UPDATE/firmware-uart1810.bin",
+  "status": "UART verified; owner reports two successful prints and flawless UART communication",
+  "planned_not_installed": [
+    "internal buck power",
+    "BIGTREETECH Pi TFT43",
+    "KlipperScreen",
+    "original-mount enclosure"
+  ],
+  "ordered_buck_link": "https://www.amazon.co.uk/dp/B0CKZ54Z4P",
+  "webcam_mount": "printing; source/licence/fit not yet published",
+  "power": "Display 5V currently used; repeated undervoltage with USB camera, none in 8.5-minute post-unplug comparison; electrical cause unmeasured",
+  "files": {
+    "firmware-uart1810.bin": {
+      "bytes": 43708,
+      "sha256": "c11487019628a1e38cfe835d04cdcf19971f00c32ae7c6b2b3863931d9333744"
+    },
+    "firmware-usb1810.bin": {
+      "bytes": 43676,
+      "sha256": "de2730eae5e24569e6d23320c4d2d9557f497818c5dd6ad11b206bdebf6dd42f"
+    },
+    "source/klipper-9cb99754.tar.gz": {
+      "bytes": 28168701,
+      "sha256": "c95be616d1a5cc25898b3d1adc0bf5d302fc82770c96fffbe40e5bbd27535873",
+      "origin": "https://codeload.github.com/Klipper3d/klipper/tar.gz/9cb99754c035b90206ef0a02660f674fc9517e9b"
+    }
+  }
+}

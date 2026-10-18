@@ -1,0 +1,4 @@
+# Merge into the appropriate section of your existing boot config.
+# Do not replace the entire file. See README for serial-console/getty checks.
+enable_uart=1
+dtoverlay=disable-bt
