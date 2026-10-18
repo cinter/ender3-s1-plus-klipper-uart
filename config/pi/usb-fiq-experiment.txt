@@ -1,0 +1,4 @@
+# Historical USB diagnostic experiment, NOT a required UART setting.
+# If reproducing the experiment, append these tokens to the existing single-line
+# boot cmdline, never replace the full cmdline with this file.
+dwc_otg.fiq_enable=0 dwc_otg.fiq_fsm_enable=0

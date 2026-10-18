@@ -42,7 +42,7 @@ sha256sum -c SHA256SUMS
 
 Copy the selected image into `STM32F4_UPDATE/` on a suitable FAT32 SD card, using a filename **different from the previous flash**. `firmware-uart1810.bin` succeeded here after a reused `firmware.bin` was ignored. A later retry or rollback needs another fresh name if that name was last used.
 
-Read the full power-off/USB-disconnect/mainboard-slot procedure in the [main guide](../README.md#3-flash-with-a-new-filename). Do not flash a running printer. USB enumeration is not MCU identity. Verify live `RESERVE_PINS_serial=PA3,PA2` over UART after the flash; USART1 firmware reports PA10/PA9.
+Read the full power-off/USB-disconnect/mainboard-slot procedure in the [main guide](../docs/uart.md#3-flash-with-a-new-filename). Do not flash a running printer. USB enumeration is not MCU identity. Verify live `RESERVE_PINS_serial=PA3,PA2` over UART after the flash; USART1 firmware reports PA10/PA9.
 
 ## Source and licence
 

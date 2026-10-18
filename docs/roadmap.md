@@ -2,6 +2,8 @@
 
 Last updated: 18 October 2026. The owner wants a tidy setup powered from the printer, with the Pi and replacement display using the original display mounting points.
 
+Start with the [complete stock-to-Klipper build guide](../README.md), [working configuration](../config/klipper/README.md), [limits and tuning](limits-and-tuning.md) and [Cura machine](../cura/README.md). The [single-cable design](single-cable.md) connects the remaining power/display work; [models](../models/README.md) tracks printable hardware.
+
 ## Completed baseline
 
 - [x] Identify stock DACAI connector from actual PCB photographs.

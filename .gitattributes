@@ -1,4 +1,4 @@
-* text=auto
+* text=auto eol=lf
 *.md text eol=lf
 *.py text eol=lf
 *.cfg text eol=lf
@@ -7,3 +7,4 @@
 *.bin binary
 *.jpg binary
 *.tar.gz binary
+*.zip binary

@@ -1,6 +1,6 @@
 # Configuration snapshot and machine-specific values
 
-`config/printer.cfg` is an example of the owner's working S1 Plus configuration after UART migration. It is derived from upstream Klipper's S1 Plus mapping, with local tuning and macros. It is not a universal commissioning file.
+`config/klipper/printer.cfg` is an example of the owner's working S1 Plus configuration after UART migration. It is derived from upstream Klipper's S1 Plus mapping, with local tuning and macros. It is not a universal commissioning file.
 
 Only the MCU serial path and explicit baud are required for the UART transport change. Leave known-good mechanics and calibration alone when diagnosing communication.
 
@@ -27,4 +27,4 @@ The snapshot includes `mainsail.cfg`, `bedtime.cfg` and `filament.cfg`. Use the 
 
 The saved configuration block is retained to document actual state, not as recommended values to copy. Calibrate your own Z offset and mesh, and check all heater/sensor/endstop mappings before any test print. Use Klipper's official [configuration checks](https://www.klipper3d.org/Config_checks.html) and [configuration reference](https://www.klipper3d.org/Config_Reference.html).
 
-No model G-code, slicer projects or unverified third-party printable parts are included. The repository focuses on reproducible communication and the planned hardware integration.
+The [full build guide](../README.md) covers host setup, commissioning, the working configuration and the [Cura machine export](../cura/README.md). Model projects and unverified third-party printable parts are excluded. See [limits and tuning](limits-and-tuning.md) for the measured tuning history and the distinction between saved and active limits.

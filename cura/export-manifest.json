@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-18",
+  "source": "Selected native containers from active local Cura machine",
+  "cura_version": "5.13.0",
+  "setting_version": 27,
+  "active_machine": "s1plus_klipper",
+  "files": {
+    "machine_instances/s1plus_klipper.global.cfg": {
+      "source_sha256": "73e55612755672e6920c6226d2af9903fe2231d35d122500a23d67e2240fe798",
+      "published_sha256": "c5bbc44efc5eb19bca9b06b8ce02c5144c5e38a82f60c83f2009b24db6db5f26",
+      "portable_changes": [
+        "Portable group UUID and offline/no post-processing metadata."
+      ]
+    },
+    "extruders/s1plus_klipper_extruder_0.extruder.cfg": {
+      "source_sha256": "526034ce36ddc9d6fc80f6112b6373c30aa34fceaa89dcda2ba68fab40073262",
+      "published_sha256": "030bbcbdb311a0c4690d49465bbe8e73e98b7ed5f09675894f2b7e1f68c49b67",
+      "portable_changes": [
+        "Custom eSUN PLA PRO Black material reference replaced with bundled generic 1.75 mm PLA."
+      ]
+    },
+    "definition_changes/s1plus_klipper_settings.inst.cfg": {
+      "source_sha256": "9660732a9116700039d9f6135a81353d0a479abbe20d6050761ada24cb4ca597",
+      "published_sha256": "6741400cd22c9757e8025950030a70d78ce5c226a1f71bd1c673f5fc9af989ed",
+      "portable_changes": []
+    },
+    "definition_changes/s1plus_klipper_extruder_0_settings.inst.cfg": {
+      "source_sha256": "0248957b5a5ed9c4f86349f3f366414a02b8c217f9a4b53b477a621355aafa3a",
+      "published_sha256": "4564d09e400ea4426844a7801fdb32604afac28c4ecaad8016a09e9fcb9dbf4d",
+      "portable_changes": []
+    },
+    "user/s1plus_klipper_user.inst.cfg": {
+      "source_sha256": "6a6be25112c8685bd48cddf92cb4a3afe1b77dbdf422794b15b32425a5d47ec3",
+      "published_sha256": "0a30ef78fcbd52cd3b73c6f8689f8610ad2056b664cf71405bf3f2517e6e1dc4",
+      "portable_changes": []
+    },
+    "user/s1plus_klipper_extruder_0_user.inst.cfg": {
+      "source_sha256": "42a261627a10c7e40a381cca48fcf9e77c598c540f05cdfebcae5a10cd81650d",
+      "published_sha256": "555da9c90c5ee3b3de1212909f29185136fa3ccda19d3204fe5c3683b8adb349",
+      "portable_changes": []
+    }
+  },
+  "zip_sha256": "69c71cc9d2ed1c83827aa74d379878804a4d4d21ec79314e02e4c0cc9ce387e8",
+  "speed_note": "No explicit print/travel speed overrides in the exported containers. Quality/material settings are inherited.",
+  "validation": "Native container parsing and dependency resolution; no GUI import validation claimed."
+}

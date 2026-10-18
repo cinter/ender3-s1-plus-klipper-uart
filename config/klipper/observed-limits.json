@@ -1,0 +1,53 @@
+{
+  "snapshot_date": "2026-10-18",
+  "saved_configuration": {
+    "max_velocity_mm_s": 300,
+    "max_accel_mm_s2": 500,
+    "square_corner_velocity_mm_s": 5,
+    "square_corner_velocity_source": "Klipper default",
+    "minimum_cruise_ratio": 0.5,
+    "minimum_cruise_ratio_source": "Klipper default",
+    "max_z_velocity_mm_s": 10,
+    "max_z_accel_mm_s2": 100,
+    "max_extrude_only_velocity_mm_s": 50,
+    "max_extrude_only_accel_mm_s2": 1000,
+    "pressure_advance": 0.0875,
+    "input_shaper": {
+      "type": "mzv",
+      "x_hz": 33.3,
+      "y_hz": 36.4,
+      "damping_ratio": 0.15
+    },
+    "travel_mm": {
+      "x": [
+        -15,
+        316
+      ],
+      "y": [
+        -15,
+        304
+      ],
+      "z": [
+        -4,
+        300
+      ]
+    },
+    "temperature_ceiling_c": {
+      "extruder": 260,
+      "bed": 100
+    }
+  },
+  "runtime_observation_during_webcam_mount_print": {
+    "max_velocity_mm_s": 300,
+    "max_accel_mm_s2": 800,
+    "square_corner_velocity_mm_s": 10,
+    "minimum_cruise_ratio": 0.5,
+    "note": "Temporary active values, not the saved printer.cfg defaults."
+  },
+  "bedtime_mode": {
+    "max_velocity_mm_s": 40,
+    "max_accel_mm_s2": 250,
+    "square_corner_velocity_mm_s": 2
+  },
+  "warning": "Owner-specific snapshot, not validated mechanical or material limits for another printer."
+}

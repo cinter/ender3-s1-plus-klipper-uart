@@ -1,0 +1,20 @@
+M220 S100
+M221 S100
+G90
+M82
+M107
+BED_MESH_CLEAR
+M140 S{material_bed_temperature_layer_0}
+M104 S150
+M190 S{material_bed_temperature_layer_0}
+G28
+BED_MESH_PROFILE LOAD=pla_60
+G1 Z10 F600
+G1 X30 Y30 F3000
+M109 S{material_print_temperature_layer_0}
+G92 E0
+G1 Z0.28 F300
+G1 X30 Y180 E10 F900
+G92 E0
+G1 Z2 F600
+M82
